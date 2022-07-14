@@ -1,0 +1,36 @@
+@media screen and (max-width: 799px){
+    .header_section, .footer_section, .media_section{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .header_section, .footer_section, .media_section{
+        display: flex;
+    }
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header{
+    background-color:rgba(11, 2, 129, 0.27);
+    padding: 30px 0px 30px 0px;
+}
+
+.footer{
+    background-color:rgba(226, 230, 34, 0.438);
+    padding: 30px 0px 30px 0px;
+}
+
+.header_section, .footer_section, .media_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
